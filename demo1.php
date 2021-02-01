@@ -4,8 +4,8 @@ $y=1212;
 
 function myTest()
 {
-    global $x,$y;
-    $y=$x+$y;
+    $GLOBALS['y']=$GLOBALS['x']+$GLOBALS['y'];
+
 }
 
 myTest();
